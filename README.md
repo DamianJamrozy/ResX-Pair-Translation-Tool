@@ -1,4 +1,10 @@
-# 🧩 ResX Pair & Translation Tool by Damian Jamroży
+# 🧩 ResX Pair & Translation Tool by Damian Jamroży  
+
+### 🇵🇱 Polish Version | 🇬🇧 [English Version Below](#-english-version)
+
+---
+
+## 📘 Opis programu
 
 **Wersja aplikacji:** 1.0.0  
 **Autor:** Damian Jamroży  
@@ -8,8 +14,6 @@
 **Opis:** Narzędzie do synchronizowania oraz tłumaczenia plików `.resx`
 
 ---
-
-## 📘 Opis programu
 
 **ResX Pair & Translation Tool** to zaawansowane narzędzie dla programistów i tłumaczy, które automatycznie:
 - analizuje i porównuje pary plików `.resx` oraz `.en.resx`,
@@ -32,7 +36,7 @@ Aplikacja została zaprojektowana z myślą o utrzymaniu spójności tłumaczeń
 ✅ Obsługa znaczników `<![CDATA[...]]>`  
 ✅ Poprawna interpretacja polskich znaków (np. `&#243;` → `ó`)  
 ✅ Funkcja usuwania nieobsługiwanych wpisów z plików `.en.resx`  
-✅ Interfejs w języku polskim, z czytelną legendą kolorów
+✅ Interfejs w języku polskim, z czytelną legendą kolorów  
 
 ---
 
@@ -50,8 +54,8 @@ Aplikacja została zaprojektowana z myślą o utrzymaniu spójności tłumaczeń
 
 1. Pobierz plik:  
    **`ResX Pair & Translation Tool by DJamrozy.exe`**
-2. Uruchom aplikację (nie wymaga instalacji).
-3. Wybierz folder startowy z plikami `.resx`.
+2. Uruchom aplikację (nie wymaga instalacji).  
+3. Wybierz folder startowy z plikami `.resx`.  
 4. Wykonaj analizę lub uzupełnij tłumaczenia ręcznie / automatycznie.
 
 Wszystkie tłumaczenia generowane przez **Argos Translate** są przetwarzane lokalnie –  
@@ -97,3 +101,107 @@ w tym w ramach płatnych subskrypcji.
 🌐 [https://damianjamrozy.github.io](https://damianjamrozy.github.io)  
 📅 Rok wydania: 2025  
 🏷️ Wersja: 1.0.0  
+
+---
+
+---
+
+# 🇬🇧 English Version
+
+## 📘 Program Description
+
+**Application version:** 1.0.0  
+**Author:** Damian Jamroży  
+**Release year:** 2025  
+**Interface language:** Polish  
+**Type:** Windows Application (.exe)  
+**Description:** A tool for synchronizing and translating `.resx` files  
+
+---
+
+**ResX Pair & Translation Tool** is an advanced utility for developers and translators that automatically:
+- analyzes and compares `.resx` and `.en.resx` file pairs,  
+- detects missing translations,  
+- allows manual or automatic completion,  
+- works entirely **offline**, using **Argos Translate** (PL→EN model).
+
+The application was designed to maintain translation consistency in .NET projects (ASP.NET, WinForms, WPF, etc.).
+
+---
+
+## ⚙️ Key Features
+
+✅ Automatic folder scanning and detection of `.resx` file pairs  
+✅ Convenient table view with sorting and filtering options  
+✅ Manual editing of missing translations in a clear editor window  
+✅ Automatic offline translation using **Argos Translate**  
+✅ Progress bar during translation  
+✅ Preservation of the full structure and formatting of original files  
+✅ Support for `<![CDATA[...]]>` sections  
+✅ Correct interpretation of Polish HTML-encoded characters (e.g., `&#243;` → `ó`)  
+✅ Option to remove unsupported entries from `.en.resx`  
+✅ Polish-language interface with a clear color legend  
+
+---
+
+## 🧠 System Requirements
+
+- **System:** Windows 10 or newer  
+- **Processor:** x64  
+- **RAM:** at least 2 GB  
+- **Disk space:** ~300 MB free  
+- **Internet:** not required (fully offline operation)  
+
+---
+
+## 🚀 How to Run
+
+1. Download the file:  
+   **`ResX Pair & Translation Tool by DJamrozy.exe`**
+2. Launch the application (no installation required).  
+3. Select the folder containing your `.resx` files.  
+4. Analyze or complete missing translations manually or automatically.  
+
+All translations generated with **Argos Translate** are processed **locally** —  
+no data is sent over the Internet.
+
+---
+
+## 🧩 Menu Options
+
+- **Analyze** – compares `.resx` and `.en.resx` file pairs  
+- **Generate Translations** – fills in missing elements  
+  - *Manual mode* (copies Polish text)  
+  - *AI (Argos) mode* – automatically translates missing entries  
+- **Add Translations (Manual)** – opens the translation editor  
+- **Remove Unsupported** – removes from `.en.resx` elements not existing in the original  
+
+---
+
+## 🧱 Additional Information
+
+- All output files retain the exact structure and formatting of the originals.  
+- The program correctly handles comments and special characters.  
+- Argos translation models can be locally updated via `argospm`.  
+
+---
+
+## 🔒 License
+
+**© 2025 Damian Jamroży — All rights reserved**  
+
+All rights reserved.  
+This software is the intellectual property of the author.  
+Unauthorized copying, modification, sale, or redistribution of the program is strictly prohibited.  
+Commercial use of this program requires **individual consent from the author**,  
+who may distribute the application under a selected license,  
+including paid subscription models.
+
+---
+
+## 👨‍💻 Author
+
+**Damian Jamroży**  
+🌐 [https://damianjamrozy.github.io](https://damianjamrozy.github.io)  
+📅 Release year: 2025  
+🏷️ Version: 1.0.0  
