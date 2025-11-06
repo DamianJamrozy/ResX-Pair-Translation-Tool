@@ -1,4 +1,4 @@
-# 🧩 ResX Pair & Translation Tool (offline Argos) by Damian Jamroży
+# 🧩 ResX Pair & Translation Tool by Damian Jamroży
 
 **Wersja aplikacji:** 1.0.0  
 **Autor:** Damian Jamroży  
@@ -32,7 +32,7 @@ Aplikacja została zaprojektowana z myślą o utrzymaniu spójności tłumaczeń
 ✅ Obsługa znaczników `<![CDATA[...]]>`  
 ✅ Poprawna interpretacja polskich znaków (np. `&#243;` → `ó`)  
 ✅ Funkcja usuwania nieobsługiwanych wpisów z plików `.en.resx`  
-✅ Interfejs w języku polskim, z czytelną legendą kolorów i stopką ©  
+✅ Interfejs w języku polskim, z czytelną legendą kolorów
 
 ---
 
@@ -49,7 +49,7 @@ Aplikacja została zaprojektowana z myślą o utrzymaniu spójności tłumaczeń
 ## 🚀 Uruchomienie
 
 1. Pobierz plik:  
-   **`ResX Pair & Translation Tool (offline Argos) by DJamrozy.exe`**
+   **`ResX Pair & Translation Tool by DJamrozy.exe`**
 2. Uruchom aplikację (nie wymaga instalacji).
 3. Wybierz folder startowy z plikami `.resx`.
 4. Wykonaj analizę lub uzupełnij tłumaczenia ręcznie / automatycznie.
